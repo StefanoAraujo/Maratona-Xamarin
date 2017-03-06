@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:minWidth="25px"
+    p1:minHeight="25px"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/relativeLayout1">
+    <Button
+        p1:text="Botao 1"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/botao1" />
+    <Button
+        p1:text="Botao 2"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_toRightOf="@+id/botao1"
+        p1:id="@+id/botao2" />
+    <Button
+        p1:text="Botao 3"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@+id/botao1"
+        p1:id="@+id/botao3" />
+    <TextView
+        p1:text="Textview"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/Text1"
+        p1:layout_below="@+id/botao3"
+        p1:layout_marginTop="20dp" />
+</RelativeLayout>
